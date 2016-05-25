@@ -1,5 +1,5 @@
 {
-  "name": "rna-code/npm-phpci-plugin",
+  "name": "rna-code/npm-cache-phpci-plugin",
   "description": "PHPCI plugin for npm integration",
   "keywords": ["phpci", "plugin", "npm"],
   "minimum-stability": "stable",

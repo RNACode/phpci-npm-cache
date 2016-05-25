@@ -7,7 +7,7 @@ use PHPCI\Model\Build;
 use PHPCI\Plugin;
 use Psr\Log\LogLevel;
 
-class Npm implements Plugin
+class NpmCache implements Plugin
 {
     protected $directory;
     protected $phpci;
@@ -32,7 +32,7 @@ class Npm implements Plugin
         $this->build = $build;
         $this->phpci = $phpci;
         $this->directory = $path;
-        $this->npm = $this->phpci->findBinary('npm');
+        $this->npm = $this->phpci->findBinary('npm-cache');
         if (array_key_exists('directory', $options)) {
             $this->directory = $path . '/' . $options['directory'];
         }
