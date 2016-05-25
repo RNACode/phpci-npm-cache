@@ -14,7 +14,7 @@ A plugin for PHPCI to download and install npm packages required by your applica
 
 ### Plugin Options
 - **command** _[string, require]_ - Command name. See [docs](https://docs.npmjs.com/)
-- **directory** _[string, optional]_ - Relative path to run bower in.
+- **directory** _[string, optional]_ - Relative path to run npm-cache in.
 - **flags** _[list, optional]_ - Command flags
 
 ### PHPCI Config
