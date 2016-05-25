@@ -10,7 +10,7 @@ A plugin for PHPCI to download and install npm packages required by your applica
 
 ### Prerequisites
 
-1. [Npm](https://www.npmjs.com/) needs to be installed.
+1. [npm-cache](https://www.npmjs.com/package/npm-cache) needs to be installed.
 
 ### Plugin Options
 - **command** _[string, require]_ - Command name. See [docs](https://docs.npmjs.com/)
